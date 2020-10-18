@@ -169,7 +169,7 @@ const HomePage = (props) => {
                 </div>
                 <div className={subText1}>
                     <div className='col-12'>
-                        <img className={matches ? classes.imageWidth : classes.imageWidthSm} src="https://firebasestorage.googleapis.com/v0/b/service-app-f2330.appspot.com/o/COVID19_SM-Kit_Connect-Feed%20(1).png?alt=media&token=dc7c7fca-411c-4680-bcb4-a200e6494706" alt="" />
+                        <img className={matches ? classes.imageWidth : classes.imageWidthSm} src="https://firebasestorage.googleapis.com/v0/b/service-app-f2330.appspot.com/o/slmcampaign1.png?alt=media&token=b40f3e49-77c9-458c-8939-331c332894ea" alt="" />
                     </div>
                     <div className='col-12'>
                         <strong className={matches ? classes.textControl : classes.textControlSm}>
