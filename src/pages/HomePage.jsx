@@ -13,15 +13,17 @@ const useStyles = makeStyles({
         position: 'absolute',
         top: '0',
         right: '0',
-        padding: '2rem'
+        padding: '5rem 10rem 2rem 0rem',
+        fontFamily: 'Mouse Memoirs'
     },
     mainTitleSM: {
-        fontSize: '16px',
+        fontSize: '20px',
         color: 'yellow',
         position: 'absolute',
         top: '0',
         right: '0',
-        padding: '2rem'
+        padding: '1rem 1rem 0rem 0rem',
+        fontFamily: 'Mouse Memoirs'
     },
     paddingZero: {
         padding: '0'
@@ -42,7 +44,7 @@ const useStyles = makeStyles({
         marginTop: '30px'
     },
     backgroundSubText: {
-        background: 'yellow',
+        background: '#E8FFFF',
         padding: '50px 0px'
     },
     imageWidth: {
