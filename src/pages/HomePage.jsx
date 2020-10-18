@@ -74,10 +74,10 @@ const HomePage = (props) => {
                         <img className={classes.mainImage} src="https://firebasestorage.googleapis.com/v0/b/service-app-f2330.appspot.com/o/1600257021566.jpg?alt=media&token=fe0ac9f3-b2ea-4e7f-b69a-333553a9d41b" alt="" />
                         <div className={matches ? classes.mainTitle : classes.mainTitleSM}>
                             <div>
-                                Temukan Harapan di dalam Yesus
+                                Finding Hope in Jesus
                             </div>
                             <div>
-                                dan jadilah Inspirasi bagi banyak orang
+                                Inspiring People
                             </div>
                         </div>
                     </div>
