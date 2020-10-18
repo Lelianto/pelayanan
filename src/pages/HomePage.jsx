@@ -163,7 +163,7 @@ const HomePage = (props) => {
                             kerahasiaannya tanpa dibagikan kepada pihak lain.
                             <br />
                             <br />
-                            “ Let Your Mess become Message, Your Test become Testimony”
+                            “ Let your mess become message, your test become testimony”
                         </strong>
                     </div>
                 </div>
