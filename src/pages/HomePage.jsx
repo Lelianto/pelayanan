@@ -151,7 +151,7 @@ const HomePage = (props) => {
                 </div>
                 <div className='row mt-5'>
                     <div className='col-12'>
-                        <img className={matches ? classes.imageWidth : classes.imageWidthSm} src="https://firebasestorage.googleapis.com/v0/b/service-app-f2330.appspot.com/o/download.png?alt=media&token=9366da78-5905-4e11-928f-d632463b76dc" alt="" />
+                        <img className={matches ? classes.imageWidth : classes.imageWidthSm} src="https://firebasestorage.googleapis.com/v0/b/service-app-f2330.appspot.com/o/3704116-1-1024x683.jpg?alt=media&token=473354dd-80e1-4332-b372-65610ed77034" alt="" />
                     </div>
                 </div>
                 <div className={matches ? subText1 : subTextM}>
