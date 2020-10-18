@@ -8,12 +8,12 @@ const useStyles = makeStyles({
         width: '100%'
     },
     mainTitle: {
-        fontSize: '54px',
+        fontSize: '72px',
         color: 'yellow',
         position: 'absolute',
         top: '0',
         right: '0',
-        padding: '5rem 10rem 2rem 0rem',
+        padding: '5rem 8rem 2rem 0rem',
         fontFamily: 'Mouse Memoirs'
     },
     mainTitleSM: {
