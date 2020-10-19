@@ -16,21 +16,40 @@ const useStyles = makeStyles({
         padding: '5rem 8rem 2rem 0rem',
         fontFamily: 'Mouse Memoirs'
     },
+    mainTitle2: {
+        fontSize: '72px',
+        position: 'absolute',
+        padding: '5rem 8rem 2rem 0rem',
+        fontFamily: 'Mouse Memoirs',
+        right: '3px',
+        top: '3px',
+        color: 'mintcream'
+    },
     mainTitleSM: {
         fontSize: '20px',
-        color: '#f8b400',
+        color: '#f6cb31f0',
         position: 'absolute',
         top: '0',
         right: '0',
         padding: '1rem 1rem 0rem 0rem',
         fontFamily: 'Mouse Memoirs'
     },
+    mainTitleSM2: {
+        fontSize: '20px',
+        position: 'absolute',
+        padding: '1rem 1rem 0rem 0rem',
+        fontFamily: 'Mouse Memoirs',
+        right: '3px',
+        top: '3px',
+        color: 'mintcream'
+    },
     paddingZero: {
         padding: '0'
     },
     textControl: {
         textAlign: 'left',
-        fontSize: '24px'
+        fontSize: '24px',
+        fontFamily: 'Poppins'
     },
     handleMarginTop: {
         marginTop: '30px',
@@ -63,31 +82,47 @@ const useStyles = makeStyles({
         marginBottom: '10px'
     },
     handleBox: {
-        background: '#f8b400',
+        background: '#f6cb31f0',
         padding: '10px',
         borderRadius: '25px'
     },
     quoteFont: {
-        fontSize: '48px',
+        fontSize: '44px',
+        color: '#f6cb31f0',
         fontStyle: 'italic',
-        fontWeight: '500'
+        fontWeight: '700',
     },
     quoteFontM: {
         fontSize: '24px',
         fontStyle: 'italic',
-        fontWeight: '500'
+        color: '#f6cb31f0',
+        fontWeight: '700'
+    },
+    quoteFontB: {
+        fontSize: '44px',
+        fontStyle: 'italic',
+        fontWeight: '700',
+        color: 'black'
+    },
+    quoteFontMB: {
+        fontSize: '24px',
+        fontStyle: 'italic',
+        color: 'black',
+        fontWeight: '700'
     },
     buttonPrimary: {
-        backgroundColor: '#f8b400 !important',
+        backgroundColor: '#f6cb31f0 !important',
         color: 'black !important',
         fontWeight: '700',
+        fontFamily: 'Poppins',
         fontSize: '48px',
         padding: '0px 30px',
         borderRadius: '15px'
     },
     buttonPrimaryM: {
-        backgroundColor: '#f8b400 !important',
+        backgroundColor: '#f6cb31f0 !important',
         color: 'black !important',
+        fontFamily: 'Poppins',
         fontWeight: '700',
         fontSize: '30px',
         padding: '0px 30px',
@@ -98,6 +133,12 @@ const useStyles = makeStyles({
         '&:hover': {
             textDecoration: 'none'
         }
+    },
+    handleBackQuote: {
+        position: 'absolute',
+        bottom: '2px',
+        right: '0',
+        left: '-10px',
     }
 })
 
@@ -105,6 +146,7 @@ const HomePage = (props) => {
     const classes = useStyles()
     const theme = useTheme();
     const matches = useMediaQuery(theme.breakpoints.up('sm'));
+    const matchesMd = useMediaQuery(theme.breakpoints.up('md'));
     const classDouble = [classes.paddingZero, 'col-12'].join(' ')
     const classDouble1 = [classes.backgroundSubText, 'col-12'].join(' ')
     const subText1 = [classes.handleMarginTop, 'row'].join(' ')
@@ -116,6 +158,14 @@ const HomePage = (props) => {
                 <div className='row'>
                     <div className={classDouble}>
                         <img className={classes.mainImage} src="https://firebasestorage.googleapis.com/v0/b/service-app-f2330.appspot.com/o/1600257021566.jpg?alt=media&token=fe0ac9f3-b2ea-4e7f-b69a-333553a9d41b" alt="" />
+                        <div className={matches ? classes.mainTitle2 : classes.mainTitleSM}>
+                            <div>
+                                Finding Hope in Jesus
+                            </div>
+                            <div>
+                                Inspiring People
+                            </div>
+                        </div>
                         <div className={matches ? classes.mainTitle : classes.mainTitleSM}>
                             <div>
                                 Finding Hope in Jesus
@@ -228,9 +278,25 @@ const HomePage = (props) => {
                                 kerahasiaannya tanpa dibagikan kepada pihak lain.
                                 <br />
                                 <br />
-                                <strong className={matches ? classes.quoteFont : classes.quoteFontM}>
-                                    “Let your mess become message, your test become testimony”
-                                </strong>
+                                <div className='mt-3'>
+                                    {
+                                        matchesMd ?
+                                            <div>
+                                                <strong className={matches ? classes.quoteFont : classes.quoteFontM}>
+                                                    “Let your mess become message, your test become testimony”
+                                        </strong>
+                                            </div>
+                                            :
+                                            <span>
+
+                                            </span>
+                                    }
+                                    <div className={matchesMd ? classes.handleBackQuote : ''}>
+                                        <strong className={matches ? classes.quoteFontB : classes.quoteFontMB}>
+                                            “Let your mess become message, your test become testimony”
+                                        </strong>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
