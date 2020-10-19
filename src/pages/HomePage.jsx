@@ -85,6 +85,14 @@ const useStyles = makeStyles({
         padding: '0px 30px',
         borderRadius: '15px'
     },
+    buttonPrimaryM: {
+        backgroundColor: 'yellow !important',
+        color: 'black !important',
+        fontWeight: '700',
+        fontSize: '30px',
+        padding: '0px 30px',
+        borderRadius: '15px'
+    },
     handleLink: {
         textDecoration: 'none',
         '&:hover': {
@@ -238,7 +246,7 @@ const HomePage = (props) => {
                     </div>
                     <div className='col-12 mt-3 mb-5'>
                         <a href={link} className={classes.handleLink} rel="noopener noreferrer" target="_blank">
-                            <Button variant="contained" color="primary" className={classes.buttonPrimary} disableElevation>
+                            <Button variant="contained" color="primary" className={matches ? classes.buttonPrimary : classes.buttonPrimaryM} disableElevation>
                                 Kirim Pesan
                             </Button>
                         </a>
