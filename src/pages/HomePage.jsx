@@ -18,7 +18,7 @@ const useStyles = makeStyles({
     },
     mainTitleSM: {
         fontSize: '20px',
-        color: 'yellow',
+        color: 'orange',
         position: 'absolute',
         top: '0',
         right: '0',
@@ -63,7 +63,7 @@ const useStyles = makeStyles({
         marginBottom: '10px'
     },
     handleBox: {
-        background: 'yellow',
+        background: 'orange',
         padding: '10px',
         borderRadius: '25px'
     },
@@ -78,7 +78,7 @@ const useStyles = makeStyles({
         fontWeight: '500'
     },
     buttonPrimary: {
-        backgroundColor: 'yellow !important',
+        backgroundColor: 'orange !important',
         color: 'black !important',
         fontWeight: '700',
         fontSize: '48px',
@@ -86,7 +86,7 @@ const useStyles = makeStyles({
         borderRadius: '15px'
     },
     buttonPrimaryM: {
-        backgroundColor: 'yellow !important',
+        backgroundColor: 'orange !important',
         color: 'black !important',
         fontWeight: '700',
         fontSize: '30px',
