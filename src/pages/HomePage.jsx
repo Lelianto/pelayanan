@@ -148,7 +148,7 @@ const HomePage = (props) => {
                                         <div className={[classes.textControl, classes.handleSubText].join(' ')}>
                                             Dilansir dari republika.co.id, studi terbaru oleh University College London (UCL),
                                             Imperial College dan University of Sussex mencatat, bahwa
-                                            <div className="text-center">
+                                            <div className="text-center mt-3">
                                                 <div className={classes.handleSurvey}>
                                                     6 dari 10
                                                 </div>
@@ -184,7 +184,7 @@ const HomePage = (props) => {
                                         <div className={[classes.textControlSm, classes.handleSubText].join(' ')}>
                                             Dilansir dari republika.co.id, studi terbaru oleh University College London (UCL),
                                             Imperial College dan University of Sussex mencatat, bahwa
-                                            <div className="text-center">
+                                            <div className="text-center mt-3">
                                                 <div className={classes.handleSurvey}>
                                                     6 dari 10
                                                 </div>
@@ -200,7 +200,7 @@ const HomePage = (props) => {
                         }
                     </div>
                 </div>
-                <div className='row mt-5'>
+                <div className='row mt-3'>
                     <div className={classDouble1}>
                         <div className={classes.handleBox}>
                             <strong className={matches ? classes.textControl : classes.textControlSm}>
