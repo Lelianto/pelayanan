@@ -34,7 +34,7 @@ const useStyles = makeStyles({
     },
     handleMarginTop: {
         marginTop: '30px',
-        lineHeight: '3rem'
+        lineHeight: '2rem'
     },
     handleMarginTop1: {
         marginTop: '30px',
