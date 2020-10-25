@@ -151,29 +151,14 @@ const HomePage = (props) => {
     const classDouble1 = [classes.backgroundSubText, 'col-12'].join(' ')
     const subText1 = [classes.handleMarginTop, 'row'].join(' ')
     const subTextM = [classes.handleMarginTop1, 'row'].join(' ')
+
     let link = 'https://m.me/101758411513631'
     return (
         <React.Fragment>
             <div className='container-fluid'>
                 <div className='row'>
                     <div className={classDouble}>
-                        <img className={classes.mainImage} src="https://firebasestorage.googleapis.com/v0/b/service-app-f2330.appspot.com/o/1600257021566.jpg?alt=media&token=fe0ac9f3-b2ea-4e7f-b69a-333553a9d41b" alt="" />
-                        <div className={matches ? classes.mainTitle2 : classes.mainTitleSM}>
-                            <div>
-                                Finding Hope in Jesus
-                            </div>
-                            <div>
-                                Inspiring People
-                            </div>
-                        </div>
-                        <div className={matches ? classes.mainTitle : classes.mainTitleSM}>
-                            <div>
-                                Finding Hope in Jesus
-                            </div>
-                            <div>
-                                Inspiring People
-                            </div>
-                        </div>
+                        <img className={classes.mainImage} src="https://firebasestorage.googleapis.com/v0/b/service-app-f2330.appspot.com/o/bannerrrr%20landing%20page.png?alt=media&token=1af62077-1c99-4818-bcee-9ac9c496b1b3" alt="" />
                     </div>
                 </div>
                 <div className={subText1}>
@@ -303,7 +288,7 @@ const HomePage = (props) => {
                 </div>
                 <div className={subText1}>
                     <div className='col-12'>
-                        <img className={matches ? classes.imageWidth : classes.imageWidthSm} src="https://firebasestorage.googleapis.com/v0/b/service-app-f2330.appspot.com/o/slmcampaign1.png?alt=media&token=b40f3e49-77c9-458c-8939-331c332894ea" alt="" />
+                        <img className={matches ? classes.imageWidth : classes.imageWidthSm} src="https://firebasestorage.googleapis.com/v0/b/service-app-f2330.appspot.com/o/cerita%20landing%20page.png?alt=media&token=e33cec3c-2a8e-4076-ba11-e85cf3c2c753" alt="" />
                     </div>
                     <div className='col-12'>
                         <strong className={matches ? classes.textControl : classes.textControlSm}>
