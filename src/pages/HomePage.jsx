@@ -155,7 +155,7 @@ const HomePage = (props) => {
 
     let { id } = useParams();
     let link = 'https://m.me/'
-    
+
     switch (id) {
         case '1':
             link = `${link}101758411513631` //sudahKutemukan
@@ -226,8 +226,14 @@ const HomePage = (props) => {
                                                 anak muda memiliki <br />
                                                 masalah&nbsp;
                                                 <strong>
-                                                    kesehatan mental.
+                                                    kesehatan mental. <br /> <br />
                                                 </strong>
+                                                antara lain :
+                                                <ul>
+                                                   <li>mudah marah (tanpa sebab yang jelas)</li>
+                                                   <li> sering mengurung duri</li>
+                                                   <li>merasa tertutup (bahkan dengan keluarga/kerabat dekat)</li>
+                                               </ul>
                                             </div>
                                         </div>
                                     </div>
