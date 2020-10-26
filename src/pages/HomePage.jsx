@@ -1,4 +1,5 @@
 import React from 'react';
+import { useParams } from 'react-router-dom'
 import { makeStyles, useTheme } from '@material-ui/core/styles';
 import useMediaQuery from '@material-ui/core/useMediaQuery';
 import Button from '@material-ui/core/Button';
@@ -152,7 +153,42 @@ const HomePage = (props) => {
     const subText1 = [classes.handleMarginTop, 'row'].join(' ')
     const subTextM = [classes.handleMarginTop1, 'row'].join(' ')
 
-    let link = 'https://m.me/101758411513631'
+    let { id } = useParams();
+    let link = 'https://m.me/'
+    
+    switch (id) {
+        case '1':
+            link = `${link}101758411513631` //sudahKutemukan
+            break;
+        case '2':
+            link = `${link}105063457842541` //Mahasiswa mantul
+            break;
+        case '3':
+            link = `${link}105083317893946` //living water
+            break;
+        case '4':
+            link = `${link}journeytogether.cj` //Journey Together
+            break;
+        case '5':
+            link = `${link}versi.terbaikku` //versi terbaikku
+            break;
+        case '6':
+            link = `${link}RumahMahasiswa` //Rumah Mahasisiwa
+            break;
+        case '7':
+            link = `${link}1pemimpinmasadepan` //Pemimpin masa depan
+            break;
+        case '8':
+            link = `${link}101003554920761` //Go & Make Desciples
+            break;
+        default:
+            link = `${link}101758411513631` //sudahKutemukan
+            break;
+    }
+
+   
+
+
     return (
         <React.Fragment>
             <div className='container-fluid'>
@@ -226,8 +262,14 @@ const HomePage = (props) => {
                                                 anak muda memiliki <br />
                                                 masalah&nbsp;
                                                 <strong>
-                                                    kesehatan mental.
+                                                    kesehatan mental. <br />
                                                 </strong>
+                                                antara lain :
+                                                <ul>
+                                                   <li>mudah marah (tanpa sebab yang jelas)</li>
+                                                   <li> sering mengurung duri</li>
+                                                   <li>merasa tertutup (bahkan dengan keluarga/kerabat dekat)</li>
+                                               </ul>
                                             </div>
                                         </div>
                                     </div>
