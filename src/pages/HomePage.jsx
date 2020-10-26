@@ -181,6 +181,8 @@ const HomePage = (props) => {
         case '8':
             link = `${link}101003554920761` //Go & Make Desciples
             break;
+        case '9':
+            link = `${link}105686511244584` //Harapan Hidup
         default:
             link = `${link}101758411513631` //sudahKutemukan
             break;
