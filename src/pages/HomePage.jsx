@@ -183,6 +183,7 @@ const HomePage = (props) => {
             break;
         case '9':
             link = `${link}105686511244584` //Harapan Hidup
+            break;
         default:
             link = `${link}101758411513631` //sudahKutemukan
             break;
