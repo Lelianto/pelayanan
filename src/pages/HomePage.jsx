@@ -187,6 +187,9 @@ const HomePage = (props) => {
         case '10':
             link = `${link}243841853374495` //Gaming
             break;
+        case '11':
+            link = 'https://www.instagram.com/direct/t/340282366841710300949128146074621209041' // Kasih Karunia (via Instagram)
+            break;
         default:
             link = `${link}101758411513631` //sudahKutemukan
             break;
