@@ -195,7 +195,7 @@ const HomePage = (props) => {
             break;
     }
 
-   
+
 
 
     return (
@@ -239,10 +239,10 @@ const HomePage = (props) => {
                                                 </strong>
                                                 antara lain :
                                                 <ul>
-                                                   <li>mudah marah (tanpa sebab yang jelas)</li>
-                                                   <li> sering mengurung duri</li>
-                                                   <li>merasa tertutup (bahkan dengan keluarga/kerabat dekat)</li>
-                                               </ul>
+                                                    <li className="list-unstyled">mudah marah (tanpa sebab yang jelas)</li>
+                                                    <li className="list-unstyled"> sering mengurung duri</li>
+                                                    <li className="list-unstyled">merasa tertutup (bahkan dengan keluarga/kerabat dekat)</li>
+                                                </ul>
                                             </div>
                                         </div>
                                     </div>
@@ -281,10 +281,10 @@ const HomePage = (props) => {
                                                 </strong>
                                                 antara lain :
                                                 <ul>
-                                                   <li>mudah marah (tanpa sebab yang jelas)</li>
-                                                   <li> sering mengurung duri</li>
-                                                   <li>merasa tertutup (bahkan dengan keluarga/kerabat dekat)</li>
-                                               </ul>
+                                                    <li>mudah marah (tanpa sebab yang jelas)</li>
+                                                    <li> sering mengurung duri</li>
+                                                    <li>merasa tertutup (bahkan dengan keluarga/kerabat dekat)</li>
+                                                </ul>
                                             </div>
                                         </div>
                                     </div>
