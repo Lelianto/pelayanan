@@ -239,9 +239,9 @@ const HomePage = (props) => {
                                                 </strong>
                                                 antara lain :
                                                 <ul>
-                                                    <li className="list-unstyled">mudah marah (tanpa sebab yang jelas)</li>
-                                                    <li className="list-unstyled"> sering mengurung duri</li>
-                                                    <li className="list-unstyled">merasa tertutup (bahkan dengan keluarga/kerabat dekat)</li>
+                                                    <li>mudah marah (tanpa sebab yang jelas)</li>
+                                                    <li> sering mengurung diri</li>
+                                                    <li>merasa tertutup (bahkan dengan keluarga/kerabat dekat)</li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -282,7 +282,7 @@ const HomePage = (props) => {
                                                 antara lain :
                                                 <ul>
                                                     <li>mudah marah (tanpa sebab yang jelas)</li>
-                                                    <li> sering mengurung duri</li>
+                                                    <li>sering mengurung diri</li>
                                                     <li>merasa tertutup (bahkan dengan keluarga/kerabat dekat)</li>
                                                 </ul>
                                             </div>
